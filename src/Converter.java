@@ -14,10 +14,10 @@ public class Converter {
 
         // Convert the integer intNum into a float.
         int intNum = 1500;
-        float from_intNum; // assign here
+        float from_intNum = (float) intNum; // assign here
 
         // Convert the double doubleNum into a string.
         double doubleNum = 3.14159265;
-        String from_doubleNum; // assign here
+        String from_doubleNum = doubleNum + " "; // assign here
     }
 }
